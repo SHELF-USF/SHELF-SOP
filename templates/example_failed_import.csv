@@ -1,0 +1,6 @@
+TransectID,EggNumber,FailReason,NumberEggs,DNAdb,ScientificName,PercentID,Sequence,CollectionType,StudyComponent,Phase,Notes
+WB2410_B111.1,7,PCRFail,1,,,,,FIO_shelf_summer,seasons_shelf_time_series,3,No band on gel
+WB2410_B111.1,12,LowPercentID,1,BOLD,Decapterus punctatus,94.2,ACTGGCATTCGGAAACTGACTTATCCCCCTAATAATCGGAGCCCCTGATATAGCATTCCC,FIO_shelf_summer,seasons_shelf_time_series,3,
+WB2410_B111.2,3,NotEnoughBP,1,,,,ACTGGCATTCGGAAACTGACTTATC,FIO_shelf_summer,seasons_shelf_time_series,3,Under 80 bp; BLAST no match
+WB2410_B111.2,15,InvertebrateMatch,1,GenBank,Loligo pealeii,99.1,ACTGGTATTCGGAAACTGACTTATC,FIO_shelf_summer,seasons_shelf_time_series,3,Squid
+WB2410_B111.3,21,Unknown,1,,,,,FIO_shelf_summer,seasons_shelf_time_series,3,

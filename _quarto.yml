@@ -1,0 +1,45 @@
+project:
+  type: book
+  output-dir: _book
+  # Render only the book chapters (not the review notes in this folder)
+  render:
+    - index.qmd
+    - documents/SHELF_SOP1_Program_Overview.md
+    - documents/SHELF_SOP2_Field.md
+    - documents/SHELF_SOP3_Lab.md
+    - documents/SHELF_SOP4_Data_Management.md
+
+book:
+  title: "SHELF Standard Operating Procedures"
+  subtitle: |
+    Spawning Habitat & Early-Life Linkages to Fisheries, SHELF Phase III\
+    University of South Florida, College of Marine Science
+  author: "Christopher Stallings, Mya Breitbart, Makenzie Kerr, AliciaGrace Marley"
+  # Version = YYYYMMDD.N: N counts versions sent for review that day,
+  # restarting at .1 each day. Before sending a new version, set date to
+  # today and N in date-format and output-file.
+  date: 2026-11-05
+  date-format: "[Version:] YYYYMMDD[.1]"
+  output-file: "SHELF-SOP_20261105.1"
+  chapters:
+    - index.qmd
+    - documents/SHELF_SOP1_Program_Overview.md
+    - documents/SHELF_SOP2_Field.md
+    - documents/SHELF_SOP3_Lab.md
+    - documents/SHELF_SOP4_Data_Management.md
+  site-url: https://shelf-usf.github.io/SHELF-SOP/
+  repo-url: https://github.com/SHELF-USF/SHELF-SOP
+  repo-actions: [issue]   # "Report an issue" link on each page (SOP 1, 1.8.4)
+  downloads: [docx]
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+  docx:
+    toc: true
+    toc-depth: 2
+
+# SOP sections are numbered by hand inside each file
+number-sections: false

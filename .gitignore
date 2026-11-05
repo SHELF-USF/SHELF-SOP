@@ -1,0 +1,28 @@
+# Build output (rebuilt by GitHub Actions on every push)
+_book/
+.quarto/
+/.quarto/
+
+# Internal working files: kept locally, not published
+reviews/
+_archive/
+data/
+documents/_source/
+protocolsio/
+SOP_open_items.md
+SOP_review_*.md
+
+# Database and Office temp files
+*.accdb
+*.laccdb
+~$*
+
+# R / OS clutter
+.Rhistory
+.RData
+.Rproj.user/
+Thumbs.db
+.DS_Store
+desktop.ini
+
+**/*.quarto_ipynb
