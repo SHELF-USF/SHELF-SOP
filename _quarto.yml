@@ -31,10 +31,14 @@ book:
   repo-url: https://github.com/SHELF-USF/SHELF-SOP
   repo-actions: [issue]   # "Report an issue" link on each page (SOP 1, 1.8.4)
   downloads: [docx]
+  favicon: images/shelf_icon.png
+  sidebar:
+    style: docked
+    logo: images/shelf_logo.png
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, style.scss]
     toc: true
     toc-depth: 3
   docx:

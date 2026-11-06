@@ -1,3 +1,11 @@
+::: {.front-logo .content-visible when-format="html"}
+![](images/shelf_logo.png){fig-alt="SHELF logo" fig-align="center"}
+:::
+
+::: {.content-visible when-format="docx"}
+![](images/shelf_logo.png){width=4in fig-align="center"}
+:::
+
 # About these SOPs {.unnumbered}
 
 These are the four Standard Operating Procedures (SOPs) for the Spawning

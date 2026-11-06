@@ -1,0 +1,77 @@
+/*-- scss:defaults --*/
+// Look modeled on the Fish Ecology Lab handbook (bookdown gitbook),
+// with colors taken from the SHELF logo.
+
+$shelf-navy: #243C8D;
+$shelf-blue: #37AAE1;
+
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-root: 16px;
+$line-height-base: 1.7;
+$body-color: #333333;
+$link-color: #1F6FAE;          // darker than the logo blue so links stay readable
+$headings-color: $shelf-navy;
+$headings-font-weight: 700;
+
+$sidebar-bg: #FAFAFA;
+$sidebar-fg: #333333;
+$sidebar-hl: $shelf-navy;
+
+/*-- scss:rules --*/
+
+// Justified body text, as in the handbook
+main p,
+main li {
+  text-align: justify;
+  hyphens: auto;
+}
+#title-block-header p,
+main table p {
+  text-align: left;
+  hyphens: manual;
+}
+
+// Large book title on the front page
+#title-block-header .title {
+  font-size: 2.6em;
+  color: $shelf-navy;
+}
+#title-block-header .subtitle {
+  color: #555555;
+}
+
+// Light rule under section headings
+main h2 {
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 0.25em;
+}
+
+// Sidebar: gitbook-style gray panel with a thin border
+#quarto-sidebar {
+  border-right: 1px solid #E5E5E5;
+  font-size: 0.9rem;
+}
+.sidebar-logo {
+  max-width: 90%;
+  margin-bottom: 0.5em;
+}
+.sidebar-item .sidebar-link.active {
+  font-weight: 600;
+}
+
+// Front-page logo
+.front-logo img {
+  max-width: 520px;
+  width: 100%;
+}
+
+// Figure captions in gray, as in the handbook
+figcaption,
+.figure-caption {
+  color: #777777;
+}
+
+// Tables a bit tighter than the body text
+main table {
+  font-size: 0.92em;
+}
