@@ -1,7 +1,7 @@
 # SHELF SOP 2: Field Collection of Fish Eggs Using CUFES
 
 **Authors**: Christopher Stallings, AliciaGrace Marley \
-**protocols.io**: to be published (DOI to be added)
+**protocols.io**: <https://doi.org/10.17504/protocols.io.wov1yj1wpvr2/v1>
 
 ---
 

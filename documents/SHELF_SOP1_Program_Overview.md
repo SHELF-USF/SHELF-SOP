@@ -299,15 +299,16 @@ anyone working with the database.
 |----------|---------------|-----------|
 | SOP website: <https://shelf-usf.github.io/SHELF-SOP/> | The current version of all four SOPs, with a Word download | Read the SOPs |
 | GitHub: <https://github.com/SHELF-USF/SHELF-SOP> | The source files, the full change history, and issues | Suggest a change (Section 1.8.4) |
-| protocols.io | SOPs 2 and 3, each with a DOI and version history | Cite the field and lab methods |
+| protocols.io (SHELF-USF workspace) | SOP 2 (<https://doi.org/10.17504/protocols.io.wov1yj1wpvr2/v1>) and SOP 3 (<https://doi.org/10.17504/protocols.io.q2lydz4rmlx9/v1>), each with a version history | Cite the field and lab methods |
 | Shared folder: `09_SOP/` | A Word copy of each released version; earlier SOPs in `09_SOP/legacy/` | Find a past version |
 
 If copies disagree, the SOP website is the current version. The version
 number on the title page, `YYYYMMDD.N`, gives the release date and the
 release number on that date (e.g., `20261105.1`).
 
-SOPs 2 and 3 are published on protocols.io as Stallings and Marley (in
-preparation) and Breitbart and Kerr (2025). The protocols.io versions carry
+SOPs 2 and 3 are on protocols.io as Stallings and Marley (2026) and
+Breitbart and Kerr (2026). SOP 3 replaces the lab's earlier protocol,
+Breitbart and Kerr (2025). The protocols.io versions carry
 the same text as the SOP website. When either SOP changes, its maintainer
 publishes a new protocols.io version (Section 1.8.5).
 
@@ -570,9 +571,13 @@ of Excellence Program.* St. Petersburg, FL. 51 pp.
 Breitbart M, Kerr M (2025) DNA barcoding of fish eggs methods. protocols.io.
 <https://doi.org/10.17504/protocols.io.3byl4wmbjvo5/v1>
 
+Breitbart M, Kerr M (2026) DNA barcoding of fish eggs (SHELF SOP 3).
+protocols.io. <https://doi.org/10.17504/protocols.io.q2lydz4rmlx9/v1>
+
 Checkley DM Jr, Ortner PB, Settle LR, Cummings SR (1997) A continuous,
 underway fish egg sampler. *Fisheries Oceanography* 6:58–73.
 <https://doi.org/10.1046/j.1365-2419.1997.00030.x>
 
-Stallings C, Marley A (in preparation) Field collection of fish eggs using CUFES.
-protocols.io.
+Stallings C, Marley A (2026) Field collection of fish eggs using CUFES
+(SHELF SOP 2). protocols.io.
+<https://doi.org/10.17504/protocols.io.wov1yj1wpvr2/v1>

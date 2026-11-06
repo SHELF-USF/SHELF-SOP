@@ -1,7 +1,7 @@
 # SHELF SOP 3: DNA Barcoding of Fish Eggs
 
 **Authors**: Mya Breitbart, Makenzie Kerr \
-**protocols.io**: version 1 published October 2025, <https://doi.org/10.17504/protocols.io.3byl4wmbjvo5/v1>. This chapter is the revised text, to be published as version 2.
+**protocols.io**: <https://doi.org/10.17504/protocols.io.q2lydz4rmlx9/v1>. Replaces Breitbart and Kerr (2025), <https://doi.org/10.17504/protocols.io.3byl4wmbjvo5/v1>.
 
 ---
 
