@@ -1,0 +1,44 @@
+name: Suggest a change to an SOP
+description: Report an error, something unclear, an outdated step, or a missing step (SOP 1, Section 1.8.4).
+title: "SOP _ §_._: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the SHELF SOPs current. For an urgent safety
+        problem, tell the PI in person or by phone first, then file this issue.
+  - type: dropdown
+    id: sop
+    attributes:
+      label: Which SOP?
+      options:
+        - "SOP 1: Program Overview"
+        - "SOP 2: Field Collection"
+        - "SOP 3: DNA Barcoding (Lab)"
+        - "SOP 4: Data Management"
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section number
+      placeholder: "e.g., 3.6.1"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong, unclear, or missing?
+      description: You can paste photos or screenshots here.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      description: Replacement text, if you have it.
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: For example, the protocol changed on a given date, or the current step fails in a specific way.
