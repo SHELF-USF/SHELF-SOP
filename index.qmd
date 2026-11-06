@@ -24,3 +24,7 @@ Marine Science.
 
 **Funding.** Florida Institute of Oceanography, Florida RESTORE Act Centers
 of Excellence Program (FLRACEP); USF project 47101129.
+
+**License.** The SOP text and SHELF figures are licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Figures credited
+to another source remain under their owners' terms.
