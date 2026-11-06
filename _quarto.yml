@@ -45,5 +45,9 @@ format:
     toc: true
     toc-depth: 2
 
+# Author is one string (keeps names inline), so force the plural label
+language:
+  title-block-author-single: "Authors"
+
 # SOP sections are numbered by hand inside each file
 number-sections: false
