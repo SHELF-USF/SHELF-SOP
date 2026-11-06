@@ -1,0 +1,36 @@
+# Creates the issue labels named in SOP 1, Section 1.8.3.
+# Runs when this file changes, or by hand from the Actions tab.
+name: Set up issue labels
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/labels.yml]
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Create or update SHELF labels
+        run: |
+          gh label create "SOP 1"    --color 243C8D --description "Program overview" --force
+          gh label create "SOP 2"    --color 37AAE1 --description "Field collection" --force
+          gh label create "SOP 3"    --color 0E8A16 --description "Lab (DNA barcoding)" --force
+          gh label create "SOP 4"    --color 5319E7 --description "Data management" --force
+          gh label create "error"    --color D73A4A --description "Something in the SOP is wrong" --force
+          gh label create "unclear"  --color FBCA04 --description "Hard to follow or ambiguous" --force
+          gh label create "outdated" --color C5DEF5 --description "No longer matches practice" --force
+          gh label create "new step" --color A2EEEF --description "A step is missing" --force
+          gh label create "safety"   --color B60205 --description "Safety concern" --force
+      - name: Remove GitHub default labels SHELF does not use
+        run: |
+          for l in "bug" "documentation" "enhancement" "good first issue" "help wanted" "invalid" "question"; do
+            gh label delete "$l" --yes || true
+          done
