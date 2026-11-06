@@ -405,8 +405,8 @@ issues by type and SOP, for example `SOP 2`, `error`, `unclear`,
 Each person has a role in the organization that sets what they can do.
 Most team members have the **Triage** role: they can open, comment on,
 label, and close issues, but cannot change files. Maintainers and the
-database team have **Write** access. The PI and Co-PI are organization
-owners.
+database team have **Write** access. The PI and the PI's lab manager are
+organization owners.
 
 #### Getting access
 
