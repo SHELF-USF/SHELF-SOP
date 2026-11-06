@@ -1,10 +1,8 @@
 # About these SOPs {.unnumbered}
 
 These are the four Standard Operating Procedures (SOPs) for the Spawning
-Habitat & Early-Life Linkages to Fisheries (SHELF) program. They are a SHELF Phase III
-deliverable (February 1, 2023 – July 31, 2027) and are appended to the
-Phase III final report. SOP 1 introduces the program and explains how the
-other three fit together.
+Habitat & Early-Life Linkages to Fisheries (SHELF) program. SOP 1 introduces the program and explains how
+the other three fit together.
 
 **Living document.** The SOPs are revised as methods and personnel change.
 To report a problem or suggest a change, file an issue in the SHELF SOP
