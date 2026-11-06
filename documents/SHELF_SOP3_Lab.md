@@ -57,7 +57,7 @@ Egg picking produces the egg count data (SOP 4, Section 4.4.3).
    Use a disposable pipette and the ethanol in the dish to rinse out eggs
    stuck in the vial. You only need to recover the eggs, not all of the
    plankton.
-5. Search the dish square by square, left to right and top to bottom. This
+5. Search the dish square by square (Figure 3.1). This
    avoids a bias toward large or small eggs. Continue through the whole
    dish or until you have picked **96 eggs**.
 6. Pick each egg with forceps (PL-30) and place it in the screw-cap tube.
@@ -82,6 +82,8 @@ Egg picking produces the egg count data (SOP 4, Section 4.4.3).
 11. Store the tubes and vials at room temperature.
 12. Rinse the dish with water and wipe the forceps with ethanol. Turn off
     the microscope.
+
+![Figure 3.1. Search pattern for picking eggs from a gridded petri dish.](../images/sop3_petri_search_pattern.jpg){width=30%}
 
 ---
 
@@ -175,10 +177,10 @@ then add 600 µL DNA-free water. Smaller batches work the same way (e.g.,
    BSA). Vortex and spin down all reagents except the DNA (flick and spin)
    and the Red Taq (spin only).
 5. While the reagents thaw, label the tubes in numerical order, including a
-   negative control. Write the station and date at the top of each tube and
+   negative control (Figure 3.2). Write the station and date at the top of each tube and
    the egg number in the middle.
 6. If using a 96-well plate, label its side with the date, stations, and
-   your initials, and record the sample layout on a plate map.
+   your initials, and record the sample layout on a plate map (Figure 3.3).
 7. Work quickly and keep the DNA and Taq on ice. Prepare a master mix for
    the number of templates plus one negative and one extra. For a 96-well
    plate, make enough for 100 reactions to allow for loss in the
@@ -212,6 +214,10 @@ then add 600 µL DNA-free water. Smaller batches work the same way (e.g.,
     unless a note says otherwise.
 15. Store the PCR products at −20 °C, or run a gel right away.
 
+![Figure 3.2. PCR tube labels: station or date at the top, egg (sample) number in the middle.](../images/sop3_pcr_tube_labels.jpg){width=25%}
+
+![Figure 3.3. 96-well plate map template.](../images/sop3_96well_plate_map.png){width=70%}
+
 ---
 
 ## 3.6 Gel electrophoresis
@@ -223,14 +229,15 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
 
 1. Choose the gel rig size: the small rig (150 mL) for a few strips, the
    large rig (350 mL) for a full plate. Gels are 1.5% agarose (2.25 g in
-   150 mL, or 5.25 g in 350 mL of 1X TAE).
+   150 mL, or 5.25 g in 350 mL of 1X TAE; Figure 3.4).
 2. Add the agarose and 1X TAE to an Erlenmeyer flask and swirl gently. Do
    not fill the flask more than halfway, or it will boil over.
 3. Microwave for 1 minute. Wearing heat gloves, swirl gently. Microwave
    again for about 45 seconds, or until boiling, and swirl again.
 4. Set up the gel siding and combs (tape the sides if needed).
 5. When the flask is cool enough to hold the bottom for 10 seconds, add
-   ethidium bromide. **Ethidium bromide is a mutagen. Wear nitrile gloves,
+   ethidium bromide: 7.5 µL for a 150 mL gel, or 17.5 µL for 350 mL
+   (5 µL per 100 mL; Figure 3.4). **Ethidium bromide is a mutagen. Wear nitrile gloves,
    handle it only in the designated area, and dispose of it as EtBr
    waste.**
 6. Swirl gently and pour immediately into the gel holder. Pop or move any
@@ -239,15 +246,23 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
 8. Let the gel set for 20 minutes. Pull the combs straight up and remove
    the siding or tape.
 
+![Figure 3.4. Agarose and ethidium bromide amounts by gel volume and percentage.](../images/sop3_agarose_gel_table.png){width=50%}
+
 ### 3.6.2 Running the gel
 
 1. Cover the gel with at least ½ inch of 1X TAE in the gel box.
 2. Put the lid on the rig and check the leads (black/negative on the left,
-   red/positive on the right) before plugging into the power supply.
+   red/positive on the right) before plugging into the power supply
+   (Figure 3.5).
 3. Get the thawed PCR products and the DNA ladder (refrigerator, pink cap).
-4. Load the ladder at the ends of each row and the samples in the middle.
+4. Load the ladder (Figure 3.6) at the ends of each row and the samples in
+   the middle.
 5. Run at 120 V for 1 hour. Check that bubbles are rising on both sides.
 6. Turn off the power supply.
+
+![Figure 3.5. Gel electrophoresis setup.](../images/sop3_gel_rig.jpg){width=60%}
+
+![Figure 3.6. GeneRuler 100 bp DNA ladder (Thermo Fisher Scientific). SHELF COI products run at about 600–700 bp.](../images/sop3_dna_ladder.png){width=35%}
 
 ### 3.6.3 Imaging and scoring
 
@@ -300,7 +315,7 @@ Source: Sambrook and Russell, *Molecular Cloning*, Vol. 1, 3rd ed., 5.8.
 ## 3.7 Sending samples for sequencing
 
 1. Load the unpurified PCR products into a 96-well plate, preferably one
-   site per plate. Record the layout on a plate map.
+   site per plate. Record the layout on a plate map (Figure 3.3).
 2. Cap the plate with flat PCR cap strips, then add a foil seal. A tape
    dispenser or the side of a marker helps push the caps down. Label the
    plate with the date and a name that matches the order form.

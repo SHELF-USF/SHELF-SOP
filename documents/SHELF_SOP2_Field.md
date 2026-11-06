@@ -84,10 +84,12 @@ and injury reporting) before departure.
    - End Flow Rate (L/min)
    - End Total Volume (m³)
    - Notes
-6. Load the CUFES on board and install it.
+6. Load the CUFES on board and install it (Figure 2.1).
 7. Store ethanol in flammables storage, following the vessel's rules.
 8. Share Section 2.9 (what to bring, and seasickness) with anyone going to
    sea for the first time.
+
+![Figure 2.1. CUFES installed on the aft deck, with the collection sink on its stand in front.](../images/sop2_cufes_on_deck.jpg){width=55%}
 
 ---
 
@@ -95,7 +97,7 @@ and injury reporting) before departure.
 
 Do these steps after the collection pole is mounted.
 
-1. Connect the flow meter to the DC power supply:
+1. Connect the flow meter to the DC power supply (Figure 2.2):
    1. Attach the flow meter power cables to the DC power supply: blue wire
       to (−), brown wire to (+). The white and black wires are not
       connected.
@@ -103,10 +105,14 @@ Do these steps after the collection pole is mounted.
    3. Use the dials to set the power supply to about 0.14 A and 15.93 V.
       This does not need to be exact, but do not exceed 30 V DC.
 2. Work with the marine technician to set up the displays used for data
-   recording:
+   recording (Figure 2.3):
    1. a chart plotter showing depth (m) and latitude/longitude in decimal
       degrees
    2. the planned route, with the ETA at the next station
+
+![Figure 2.2. Flow meter power cable on the DC power supply: blue wire to (−), brown wire to (+). The white and black wires are not connected.](../images/sop2_power_supply_wiring.jpg){width=55%}
+
+![Figure 2.3. Displays used for data recording: the chart plotter, with position, route, and time to the next station (top), and the echosounder, with depth (bottom).](../images/sop2_bridge_displays.jpg){width=55%}
 
 ---
 
@@ -156,8 +162,11 @@ reached.
 5. Use the ethanol wash bottle to rinse all the sieve cup contents into
    the funnel without overflowing the vial. For large samples, use forceps
    gently to help move the material into the vial.
-6. Write the TransectID (e.g., `WB2410_B111.1`) on a vial label and place
-   it inside the vial.
+6. Fill in a vial label (Figure 2.4): the station and transect number
+   (e.g., `B111.1`) and the date on the front, and the cruise code and the
+   time of collection on the back. Together, the cruise code and the
+   station and transect number make the TransectID (`WB2410_B111.1`).
+   Place the label inside the vial.
 7. Write the TransectID on a cap label and attach it to the vial cap.
 8. Screw on the cap.
 9. Rinse the angled sieve, sieve cup, and funnel with flowthrough seawater.
@@ -169,6 +178,14 @@ reached.
 add a vial number after the TransectID on each label (e.g., `B119.2.1`,
 `B119.2.2`). The vial number is not part of the TransectID: all vials from
 one transect share one TransectID (SOP 4, Section 4.2.2).
+
+::: {layout-ncol=2}
+![Front](../images/sop2_vial_label_front.png)
+
+![Back](../images/sop2_vial_label_back.png)
+:::
+
+*Figure 2.4. Vial label, front and back.*
 
 ---
 
