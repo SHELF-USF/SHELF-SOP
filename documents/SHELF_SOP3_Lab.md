@@ -215,21 +215,23 @@ then add 600 µL DNA-free water. Smaller batches work the same way (e.g.,
 
 8. Mix all reagents except the DNA in a suitably sized tube. For a plate
    PCR, use a reagent reservoir for multichannel pipetting.
-9. Pipette 48 µL of master mix into each PCR tube.
-10. Add 2 µL of DNA template to each tube, matching egg numbers. Add none
+9. Place the PCR tubes or plate on the Eppendorf PCR tray ice block while
+   you add the master mix and DNA, to keep the Red Taq cool.
+10. Pipette 48 µL of master mix into each PCR tube.
+11. Add 2 µL of DNA template to each tube, matching egg numbers. Add none
     to the negative control.
-11. Flick the tubes and spin them down. Cover PCR plates with foil and spin
+12. Flick the tubes and spin them down. Cover PCR plates with foil and spin
     them down too.
-12. Carry everything in the cooler to the PCR room (only the tubes go into
+13. Carry everything in the cooler to the PCR room (only the tubes go into
     the room). Load the thermocycler and start the run. Check that it is
     running before you leave.
-13. Take off your gloves, collect the cooler and racks, and clean up in the
+14. Take off your gloves, collect the cooler and racks, and clean up in the
     main lab: put away reagents, dump the ice, and bleach and UV the hood.
-14. The run takes about 2 hours. When it finishes, press Enter to exit the
+15. The run takes about 2 hours. When it finishes, press Enter to exit the
     run (check that the screen shows your program; if not, use the arrow
     keys to find it). Remove your products and turn off the thermocycler
     unless a note says otherwise.
-15. Store the PCR products at −20 °C, or run a gel right away.
+16. Store the PCR products at −20 °C, or run a gel right away.
 
 ![Figure 3.2. PCR and extraction tube labels: station and date at the top, egg (sample) number in the middle.](../images/sop3_pcr_tube_labels.jpg){width=25%}
 
