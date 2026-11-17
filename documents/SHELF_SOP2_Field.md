@@ -54,7 +54,7 @@ and injury reporting) before departure.
 
 ### 2.2.3 Data recording materials
 
-- Datasheets and pencils
+- Datasheets, pencils, and a pencil sharpener
 - Laptop and power cord
 
 ---
