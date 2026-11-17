@@ -290,8 +290,8 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
 2. Clean the imager base with ethanol and Kimwipes. Turn on the UV light
    with the door open. Place the gel with the wells toward the back,
    centered.
-3. Open the imager program, adjust the zoom if needed, acquire the image,
-   adjust the color, and print it.
+3. Open the imager program, adjust the zoom if needed, close the
+   illuminator door, acquire the image, adjust the color, and print it.
 4. Remove the gel with a gloved hand. Turn off the imager and leave the
    door open. Save the image to your folder with the date.
 5. Discard the gel in biohazard waste.
