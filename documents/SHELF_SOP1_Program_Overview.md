@@ -546,7 +546,7 @@ day the SOP text changes. After the last edit of the day:
 
 1. Open `_quarto.yml` and edit three lines, replacing the date and `N`:
    - `date: YYYY-MM-DD`
-   - `date-format: "[Version:] YYYYMMDD[.N]"`
+   - `date-format: "YYYYMMDD[.N]"`
    - `output-file: "SHELF-SOP_YYYYMMDD.N"`
 
    `N` is 1 for the first release of the day, 2 for the second, and so on.

@@ -18,9 +18,9 @@ book:
   # Version = YYYYMMDD.N: N counts versions sent for review that day,
   # restarting at .1 each day. Before sending a new version, set date to
   # today and N in date-format and output-file.
-  date: 2026-11-05
-  date-format: "[Version:] YYYYMMDD[.1]"
-  output-file: "SHELF-SOP_20261105.1"
+  date: 2026-11-17
+  date-format: "YYYYMMDD[.1]"
+  output-file: "SHELF-SOP_20261117.1"
   chapters:
     - index.qmd
     - documents/SHELF_SOP1_Program_Overview.md
@@ -45,9 +45,11 @@ format:
     toc: true
     toc-depth: 2
 
-# Author is one string (keeps names inline), so force the plural label
+# Title-block labels: plural "Authors" (names are one string) and
+# "Version" instead of "Published" above the version number
 language:
   title-block-author-single: "Authors"
+  title-block-published: "Version"
 
 # SOP sections are numbered by hand inside each file
 number-sections: false
