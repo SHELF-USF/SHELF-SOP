@@ -310,7 +310,7 @@ SOPs 2 and 3 are on protocols.io as Stallings and Marley (2026) and
 Breitbart and Kerr (2026). SOP 3 replaces the lab's earlier protocol,
 Breitbart and Kerr (2025). The protocols.io versions carry
 the same text as the SOP website. When either SOP changes, its maintainer
-publishes a new protocols.io version (Section 1.8.5).
+publishes a new protocols.io version (Section 1.8.6).
 
 ---
 
@@ -341,7 +341,7 @@ line, or RStudio's git tools.
 | Report a problem or suggest a change to an SOP | Everyone | GitHub, web browser (Section 1.8.4) |
 | Read and reply to discussion on issues assigned to you | Everyone | GitHub, web browser or email |
 | Commit database scripts | PI, PI's lab manager, anyone writing database scripts | GitHub (SOP 4, Section 4.3.4) |
-| Edit the SOP files directly | SOP maintainers (Section 1.8.5) | GitHub |
+| Edit the SOP files directly | SOP maintainers (Sections 1.8.5–1.8.6) | GitHub |
 
 ### 1.8.2 OneDrive shared folder
 
@@ -431,29 +431,32 @@ if the SOP is wrong for you, it is likely wrong for others.
 
 To file an issue:
 
-1. Go to <https://github.com/SHELF-USF/SHELF-SOP> and sign in. (On the SOP
-   website, the **Report an issue** link on each page does steps 1–3 for
-   you.)
-2. Click the **Issues** tab.
-3. Click **New issue**.
-4. Write a short title that names the SOP and section, e.g.,
+1. Go to <https://github.com/SHELF-USF/SHELF-SOP/issues> and sign in.
+   (On the SOP website, the **Report an issue** link on each page skips
+   ahead to step 3.)
+2. Click **New issue**.
+3. Choose **Suggest a change to an SOP**.
+4. Complete the title. It starts as `SOP _ §_._: `. Fill in the SOP and
+   section and add a few words, e.g.,
    `SOP 3 §3.6.1: ethidium bromide volume missing`.
-5. In the description, give:
-   - the SOP and section number;
-   - what is wrong, unclear, or missing;
-   - the change you suggest, with replacement text if you have it;
-   - why (for example, the protocol changed on a given date, or the
-     current step fails in a specific way).
-   You can paste photos or screenshots directly into the description.
-6. Optional: on the right, add labels if you know which apply. Leave
-   assignment to the maintainer.
-7. Click **Create** (or **Submit new issue**).
+5. Fill in the boxes:
+   - **Which SOP?** and **Section number**;
+   - **What is wrong, unclear, or missing?** You can paste photos or
+     screenshots here;
+   - **Suggested change**, with replacement text if you have it;
+   - **Why?**, for example, the protocol changed on a given date, or the
+     current step fails in a specific way.
+   The first three are required.
+6. Click **Create**. Leave labels and assignment to the maintainer.
+
+For a question or anything else that does not fit the form, choose
+**Blank issue** in step 3.
 
 **What happens next.** An SOP maintainer replies on the issue, usually
 within two weeks. Questions and discussion happen in the issue's comments,
 and GitHub emails you when someone replies. If the change is accepted, the
-maintainer edits the SOP and closes the issue with a note saying which
-version includes it. If it is not accepted, the issue is closed with the
+maintainer edits the SOP (Section 1.8.6) and the issue is closed with a
+link to the change. If it is not accepted, the issue is closed with the
 reason. Either way, the record stays on GitHub.
 
 For an urgent safety problem, tell the PI in person or by phone first, then
@@ -463,12 +466,94 @@ file an issue so the fix is recorded.
 
 The PI maintains SOPs 1, 2, and 4. The Co-PI and the Co-PI's lab manager
 maintain SOP 3. Maintainers respond to issues and edit the SOP files in the `SHELF-SOP`
-repository. The SOP website and Word version rebuild automatically when
+repository (Section 1.8.6). The SOP website and Word version rebuild automatically when
 changes are pushed. After each release, the PI's lab manager saves the
-Word version to `09_SOP/`. For SOPs 2 and 3,
-they also publish the revised text as a new version on protocols.io. Team
+Word version to `09_SOP/`. For SOPs 2 and 3, the maintainer
+also publishes the revised text as a new version on protocols.io. Team
 members who are comfortable with GitHub may propose edits directly as a
 pull request. A maintainer reviews it before it is merged.
+
+### 1.8.6 Editing an SOP (maintainers)
+
+Each SOP is one file in the `documents/` folder of the `SHELF-SOP`
+repository, for example `documents/SHELF_SOP2_Field.md`. The files are
+Markdown: plain text with a few symbols for formatting. A line starting
+with `#` is a heading, `**text**` is bold, a line starting with `-` is a
+bullet, and `1.` starts a numbered step. Follow the formatting already in
+the file. Section numbers are typed by hand, so if you add or remove a
+section, renumber the sections after it and any references to them.
+
+Every change saved to the repository appears on the SOP website and in
+the Word download a few minutes later.
+
+#### Small edits, in a web browser
+
+1. On the SOP website, go to the page and click **Edit this page** (on the
+   right, under the table of contents). The file opens for editing on
+   GitHub. (Or, in the repository, open `documents/`, then the file, and
+   click the pencil icon.)
+2. Make the change. Click **Preview** to check the formatting.
+3. Click **Commit changes**. In the message, say what changed. If the
+   change resolves an issue, add `closes #` and the issue number, e.g.,
+   `Fix ethidium bromide volume (closes #12)`. GitHub then closes the
+   issue and links it to the change.
+4. Leave **Commit directly to the main branch** selected and click
+   **Commit changes**.
+5. After about five minutes, reload the SOP website and check the change.
+   The repository's **Actions** tab shows whether the rebuild finished. A
+   red ✗ means it failed. Tell the PI's lab manager.
+
+#### Larger edits
+
+For changes to many sections, new figures, or several SOPs at once, work
+on a copy of the repository on your computer:
+
+1. In GitHub Desktop, choose **File > Clone repository** and clone
+   `SHELF-USF/SHELF-SOP`. Do not clone it into the shared folder. This is
+   done once.
+2. Before each editing session, click **Fetch origin**, then **Pull
+   origin**, to get changes others have made.
+3. Open the folder in RStudio and edit the files. Put new figures in
+   `images/`. To see the website as you work, type `quarto preview` in
+   RStudio's **Terminal** tab. The book opens in a browser and updates
+   each time you save.
+4. In GitHub Desktop, write a summary of the changes (with `closes #` and
+   the issue number, as above), click **Commit to main**, then **Push
+   origin**.
+
+#### Releasing a version
+
+The version number on the title page (Section 1.7.1) must change on any
+day the SOP text changes. After the last edit of the day:
+
+1. Open `_quarto.yml` and edit three lines, replacing the date and `N`:
+   - `date: YYYY-MM-DD`
+   - `date-format: "[Version:] YYYYMMDD[.N]"`
+   - `output-file: "SHELF-SOP_YYYYMMDD.N"`
+
+   `N` is 1 for the first release of the day, 2 for the second, and so on.
+2. Commit with a message naming the version, e.g., `Release 20261120.1`.
+3. The PI's lab manager downloads the Word version from the SOP website
+   (the download icon next to the book title, top left) and saves it to
+   `09_SOP/`.
+4. If SOP 2 or SOP 3 changed, its maintainer creates a new version of the
+   protocol in the SHELF-USF workspace on protocols.io, makes the same
+   changes, and publishes it. Each protocols.io version has its own DOI
+   (ending `/v2`, `/v3`, and so on). Update the DOI in the SOP header,
+   Section 1.7.1, and the references in the next release.
+
+#### Reviewing a proposed edit (pull request)
+
+Team members without Write access can also click **Edit this page**.
+GitHub then saves their change as a pull request instead of applying it,
+and the maintainers get an email. To review it:
+
+1. Open the repository's **Pull requests** tab and click the request.
+2. Click **Files changed**. Removed text is shown in red, added text in
+   green.
+3. Comment with any questions. To accept the change, click **Merge pull
+   request**. It is then published like any other edit. To decline it,
+   click **Close pull request** and say why in a comment.
 
 ---
 

@@ -17,10 +17,9 @@ SOPs 2 and 3 are also published on protocols.io (see SOP 1, Section 1.7.1).
 
 ## Suggesting a change
 
-Open an [issue](https://github.com/SHELF-USF/SHELF-SOP/issues/new). Name
-the SOP and section in the title (e.g., `SOP 3 §3.6.1: ethidium bromide
-volume missing`), and describe what is wrong and the change you suggest.
-Full instructions are in SOP 1, Section 1.8.4.
+Open a [new issue](https://github.com/SHELF-USF/SHELF-SOP/issues/new/choose)
+and choose **Suggest a change to an SOP**. Full instructions are in SOP 1,
+Section 1.8.4.
 
 ## For maintainers
 
@@ -32,6 +31,8 @@ Full instructions are in SOP 1, Section 1.8.4.
 - Before a release, set the version in `_quarto.yml` (`date`,
   `date-format`, and `output-file`; format `YYYYMMDD.N`), then save the
   Word file to the shared folder `09_SOP/`.
+- Step-by-step editing and release instructions are in SOP 1,
+  Section 1.8.6.
 
 ## Citation
 

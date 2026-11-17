@@ -29,7 +29,7 @@ book:
     - documents/SHELF_SOP4_Data_Management.md
   site-url: https://shelf-usf.github.io/SHELF-SOP/
   repo-url: https://github.com/SHELF-USF/SHELF-SOP
-  repo-actions: [issue]   # "Report an issue" link on each page (SOP 1, 1.8.4)
+  repo-actions: [edit, issue]   # "Edit this page" and "Report an issue" links (SOP 1, 1.8.4 and 1.8.6)
   downloads: [docx]
   favicon: images/shelf_icon.png
   sidebar:
