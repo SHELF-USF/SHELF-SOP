@@ -104,8 +104,8 @@ Do these steps after the collection pole is mounted.
       to (−), brown wire to (+). The white and black wires are not
       connected.
    2. Plug the DC power supply into a wall socket and turn it on.
-   3. Use the dials to set the power supply to about 0.14 A and 15.93 V.
-      This does not need to be exact, but do not exceed 30 V DC.
+   3. Use the dials to set the power supply to 24 V. This extends the life
+      of the flow meter. Do not exceed 30 V DC.
 2. Work with the marine technician to set up the displays used for data
    recording (Figure 2.3):
    1. a chart plotter showing depth (m) and latitude/longitude in decimal
