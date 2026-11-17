@@ -169,6 +169,9 @@ long-term fall spawning time series described above.
 ### SHELF Phases I–II (2017–2022)
 - **PI**: Ernst Peebles
 - **Co-PIs**: Christopher Stallings, Mya Breitbart, Steven Murawski
+- **Lab manager**: Makenzie Kerr (Breitbart lab, Phase II)
+- **Graduate students**: Jeremy Browning, Makenzie Burrows (now Kerr),
+  Vi Nguyen, Julie Vecchio (Phase I); Keith Keel (Phase II)
 - **Other Phase I collaborators**: Kevin Boswell (Florida International
   University), David Chagaris (University of Florida), James Locascio (Mote
   Marine Laboratory)
@@ -178,7 +181,8 @@ long-term fall spawning time series described above.
 - **Co-PI**: Mya Breitbart
 - **Lab managers**: AliciaGrace Marley (Stallings lab), Makenzie Kerr
   (Breitbart lab)
-- **Graduate students**: Jessica Sklar, Alexis Mitchem
+- **Graduate students**: Jessica Sklar, Alexis Mitchem; formerly Ian
+  Williams
 
 ### Ongoing roles
 SHELF supports the education and training of graduate and undergraduate
