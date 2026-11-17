@@ -64,7 +64,8 @@ Egg picking produces the egg count data (SOP 4, Section 4.4.3).
    plankton.
 5. Search the dish square by square (Figure 3.1). This
    avoids a bias toward large or small eggs. Continue through the whole
-   dish or until you have picked **96 eggs**.
+   dish or until you have picked **96 eggs**, one plate's worth. Pick
+   exactly 96, not extras.
 6. Pick each egg with forceps (PL-30) and place it in the screw-cap tube.
    - Avoid picking up other plankton or popping eggs.
    - Push each egg into the ethanol so it does not dry out.
