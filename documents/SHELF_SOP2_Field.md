@@ -196,8 +196,9 @@ one transect share one TransectID (SOP 4, Section 4.2.2).
 ## 2.7 End of cruise and data handoff
 
 1. Keep the vials upright in a closed box and transport them to the lab at
-   room temperature. Record the handoff: date, who received the samples,
-   and number of vials.
+   room temperature. Record the handoff in
+   `handoff_[CruiseCode]_[YYYYMM].csv`, with the columns Date, DeliveredBy,
+   ReceivedBy, NumberVials, and Notes.
 2. Scan the paper datasheets as `datasheets_[CruiseCode]_[YYYYMM].pdf`.
 3. Export the cruise spreadsheet as a CSV.
 4. Ask the marine technician for the flowthrough and echosounder files and name them `environmental_[CruiseCode]_[YYYYMM]`.

@@ -182,7 +182,7 @@ or stored in `04_source_data/` follows this convention:
 
 - `[datatype]` gives the data type and, where relevant, the collection
   context, e.g., `sequences_reef`, `sequences_shelf`, `failed_reef`,
-  `eggcounts`, `environmental`, `datasheets`
+  `eggcounts`, `environmental`, `datasheets`, `handoff`
 - `[CruiseCode]` is the cruise identifier, e.g., `WB2410`, `GU2403`, `HO2507`
 - `[YYYYMM]` is the year and month of collection
 
@@ -193,6 +193,7 @@ Examples:
 - `eggcounts_GU2403_202409.csv`
 - `environmental_WB2601_202509.csv`
 - `datasheets_WB2505_202412.pdf`
+- `handoff_WB2505_202412.csv`
 
 ---
 
