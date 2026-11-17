@@ -231,6 +231,7 @@ one transect share one TransectID (SOP 4, Section 4.2.2).
 - Hat and sunscreen
 - Toiletries and any medications you take (the ship has showers)
 - A watch for timing transects
+- Earplugs
 - An extra pillow and towel, if you want them
 - Something for down time (book, work, laptop). The ship's internet is
   usually fast enough for video calls and streaming.
