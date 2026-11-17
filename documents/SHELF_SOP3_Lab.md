@@ -50,8 +50,10 @@ Egg picking produces the egg count data (SOP 4, Section 4.4.3).
 
 1. Prepare one 1.5 mL screw-cap tube per sample and label it with the
    TransectID.
-2. Make 70% ethanol in a Falcon tube (7 parts 100% ethanol to 3 parts DI
-   water). Pipette about 1 mL into each tube.
+2. Make 45 mL of 70% ethanol in a 50 mL Falcon tube: 31.5 mL of 100%
+   ethanol and 13.5 mL of DI water, measured with a 25 mL serological
+   pipette and a pipette controller. Pipette about 1 mL into each
+   screw-cap tube.
 3. Turn on the light of a dissecting scope with dark-field illumination.
 4. Pour the contents of one sample vial into a square, gridded petri dish.
    Use a disposable pipette and the ethanol in the dish to rinse out eggs
