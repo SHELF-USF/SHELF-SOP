@@ -124,6 +124,7 @@ temperature.
 2. Move each egg into its own PCR tube with a sterile pipette tip
    (10–100 µL pipette, depending on egg size). Remove the excess
    ethanol. Tips:
+   - Use a new sterile tip for each egg.
    - Choose a tip slightly larger than the egg.
    - Push all the air out of the tip before picking up the egg, and keep
      pressure on it so it stays on the tip as you lift it out.
