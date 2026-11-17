@@ -119,28 +119,30 @@ temperature.
 
 ### 3.4.2 Extraction
 
-1. Move each egg into its own PCR tube (PCR strips) with a sterile pipette
-   tip (10–100 µL pipette, depending on egg size). Remove the excess
+1. Label the PCR tubes (PCR strips) as for PCR: station and date at the
+   top, egg number in the middle (Figure 3.2).
+2. Move each egg into its own PCR tube with a sterile pipette tip
+   (10–100 µL pipette, depending on egg size). Remove the excess
    ethanol. Tips:
    - Choose a tip slightly larger than the egg.
    - Push all the air out of the tip before picking up the egg, and keep
      pressure on it so it stays on the tip as you lift it out.
    - If an egg goes up into the tip, gently flush it out with ethanol. If
      it is stuck, cut off the end of the tip and try again.
-2. Add 50 µL alkaline lysis buffer. Crush the egg against the side of the
+3. Add 50 µL alkaline lysis buffer. Crush the egg against the side of the
    tube with a sterile toothpick or pipette tip.
    - Sterilize toothpicks in a small tri-pour beaker on the autoclave dry
      cycle.
    - If the egg is hard to pop, remove the liquid, pop the egg, then add
      the liquid back.
-3. Incubate the tubes at 95 °C for 30 minutes in a thermocycler or block
+4. Incubate the tubes at 95 °C for 30 minutes in a thermocycler or block
    incubator. Set the plate to 95 °C and the lid to 56 °C, with no timer.
    Make sure the caps are tight, or they will pop off. Set a separate timer
    for 29 min 30 s so you have time to remove the tubes.
-4. Cool the tubes on ice for 3–4 minutes, then centrifuge briefly to spin
+5. Cool the tubes on ice for 3–4 minutes, then centrifuge briefly to spin
    down condensation.
-5. Add 50 µL neutralization reagent to each tube.
-6. Vortex and centrifuge briefly. This is the DNA template. Use 2 µL for
+6. Add 50 µL neutralization reagent to each tube.
+7. Vortex and centrifuge briefly. This is the DNA template. Use 2 µL for
    PCR, or store at −20 °C in a box labeled with the year, your initials,
    and "fish eggs".
 
@@ -224,7 +226,7 @@ then add 600 µL DNA-free water. Smaller batches work the same way (e.g.,
     unless a note says otherwise.
 15. Store the PCR products at −20 °C, or run a gel right away.
 
-![Figure 3.2. PCR tube labels: station or date at the top, egg (sample) number in the middle.](../images/sop3_pcr_tube_labels.jpg){width=25%}
+![Figure 3.2. PCR and extraction tube labels: station and date at the top, egg (sample) number in the middle.](../images/sop3_pcr_tube_labels.jpg){width=25%}
 
 ![Figure 3.3. 96-well plate map template.](../images/sop3_96well_plate_map.png){width=70%}
 
