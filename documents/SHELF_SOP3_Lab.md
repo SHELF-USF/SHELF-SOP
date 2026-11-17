@@ -48,8 +48,11 @@ data produced here are submitted as described in SOP 4.
 
 Egg picking produces the egg count data (SOP 4, Section 4.4.3).
 
-1. Prepare one 1.5 mL screw-cap tube per sample and label it with the
-   TransectID.
+1. Prepare one 1.5 mL screw-cap tube per sample, with two labels:
+   - on the cap: the TransectID
+   - on the side of the tube: the TransectID, your initials, the season
+     and year of the cruise (e.g., `FA24` for fall 2024), and the number
+     of eggs picked (`n = `), filled in when picking is done
 2. Make 45 mL of 70% ethanol in a 50 mL Falcon tube: 31.5 mL of 100%
    ethanol and 13.5 mL of DI water, measured with a 25 mL serological
    pipette and a pipette controller. Pipette about 1 mL into each
