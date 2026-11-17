@@ -213,7 +213,8 @@ then add 600 µL DNA-free water. Smaller batches work the same way (e.g.,
    | Taq | 1 |
    | Template (added separately) | 2 |
 
-8. Mix all reagents except the DNA in a suitably sized tube.
+8. Mix all reagents except the DNA in a suitably sized tube. For a plate
+   PCR, use a reagent reservoir for multichannel pipetting.
 9. Pipette 48 µL of master mix into each PCR tube.
 10. Add 2 µL of DNA template to each tube, matching egg numbers. Add none
     to the negative control.
