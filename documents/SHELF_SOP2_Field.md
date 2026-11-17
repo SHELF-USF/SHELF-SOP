@@ -201,8 +201,10 @@ one transect share one TransectID (SOP 4, Section 4.2.2).
 4. Ask the marine technician for the flowthrough and echosounder files and name them `environmental_[CruiseCode]_[YYYYMM]`.
 5. Upload all files to `01_Data/02_tables/staging/` and notify the PI and
    the PI's lab manager (SOP 4, Section 4.4.1).
-6. Clean the CUFES, sieves, and sieve cup (as in Section 2.3, step 3). Dry
-   and store them.
+6. Rinse the inside and outside of the CUFES, the collection sink, the flow
+   meter, the intake and output hoses, and the mounted pole with fresh
+   water. Gently scrub the sieves and sieve cup with a soft toothbrush and
+   fresh water. Let everything dry completely before storing it.
 
 ---
 
