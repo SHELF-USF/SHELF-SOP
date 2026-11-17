@@ -136,14 +136,15 @@ temperature.
      cycle.
    - If the egg is hard to pop, remove the liquid, pop the egg, then add
      the liquid back.
-4. Incubate the tubes at 95 °C for 30 minutes in a thermocycler or block
+4. Spin the tubes down briefly.
+5. Incubate the tubes at 95 °C for 30 minutes in a thermocycler or block
    incubator. Set the plate to 95 °C and the lid to 56 °C, with no timer.
    Make sure the caps are tight, or they will pop off. Set a separate timer
    for 29 min 30 s so you have time to remove the tubes.
-5. Cool the tubes on ice for 3–4 minutes, then centrifuge briefly to spin
+6. Cool the tubes on ice for 3–4 minutes, then centrifuge briefly to spin
    down condensation.
-6. Add 50 µL neutralization reagent to each tube.
-7. Vortex and centrifuge briefly. This is the DNA template. Use 2 µL for
+7. Add 50 µL neutralization reagent to each tube.
+8. Vortex and centrifuge briefly. This is the DNA template. Use 2 µL for
    PCR, or store at −20 °C in a box labeled with the year, your initials,
    and "fish eggs".
 
