@@ -70,11 +70,16 @@ Egg picking produces the egg count data (SOP 4, Section 4.4.3).
    - Push each egg into the ethanol so it does not dry out.
    - Keep count with a counter clicker.
 7. Count the eggs remaining in the dish.
-8. Place a clean petri dish under the vial to catch spills, and carefully
-   pour the contents of the picking dish back into the vial.
-   - Rinse the dish with a disposable pipette and the ethanol in the vial,
-     adding 70% ethanol if needed. Do not overflow the vial.
-   - Add anything spilled onto the extra dish to the vial.
+8. Return or discard the rest of the sample:
+   - **If eggs remain in the dish** (counted but not picked), place a clean
+     petri dish under the vial to catch spills, and carefully pour the
+     contents of the picking dish back into the vial. Rinse the dish with
+     a disposable pipette and the ethanol in the vial, adding 70% ethanol
+     if needed. Do not overflow the vial. Add anything spilled onto the
+     extra dish to the vial.
+   - **If no eggs remain** (all were picked), empty the dish into
+     biohazard waste. Remove the labels from the vial, rinse it, and set
+     it out to dry for reuse.
 9. If the sample has more than one vial, repeat steps 4–8 for each vial
    until 96 eggs are picked, and count the eggs in every vial.
 10. Record the egg counts for the sample (SOP 4, Section 4.4.3):
