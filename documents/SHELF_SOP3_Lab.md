@@ -402,20 +402,20 @@ single egg.
      and `NumberEggs` = the number of reads in the contig
    - each unused read as one row, with its integer egg number and
      `NumberEggs = 1`
-2. Go to the BOLD Identification Engine
-   (https://bench.boldsystems.org/index.php/IDS_OpenIdEngine) and select
-   species-level identification.
-3. Paste the FASTA sequences into the BOLD search box and run the search.
-   BOLD does not accept sequences shorter than 80 bp.
-4. Download the results summary.
+2. Go to the BOLD Identification Engine (https://id.boldsystems.org/).
+   Under **Database**, select **Animal Library (Public)**. Under
+   **Operating Mode**, select **Rapid Species Search**.
+3. Paste the FASTA sequences into the BOLD search box, or upload the FASTA
+   file, and run the search. BOLD does not accept sequences with no bases.
+4. Download the **Classifications** summary.
 5. For each sequence, enter the scientific name of the best match, the
    probability of placement as `PercentID`, and `DNAdb = BOLD`.
-   - Scroll down in the BOLD results to check each ID. Private records can
-     make a match look better than it is.
-   - If the result does not say "This identification is solid unless there
-     is a very closely allied congeneric species that has not yet been
-     analyzed," list the other candidate species in alphabetical order,
-     separated by `/` (e.g., `Decapterus punctatus/tabl`).
+   - Scroll down to the **Combined Hits** section to check each ID.
+     Private records can make a match look better than it is.
+   - If two or more species match at more than 97%, **Classifications**
+     shows no species-level match above 97%. The candidate species are
+     listed under **Combined Hits** instead. Enter them in alphabetical
+     order, separated by `/` (e.g., `Decapterus punctatus/tabl`).
 6. Search any sequence BOLD could not identify (including those under
    80 bp) with NCBI BLAST (https://blast.ncbi.nlm.nih.gov/Blast.cgi). Enter
    the top hit, its percent identity as `PercentID`, and `DNAdb = GenBank`.
