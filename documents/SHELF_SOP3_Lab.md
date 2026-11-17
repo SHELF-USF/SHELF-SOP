@@ -115,7 +115,7 @@ temperature.
 **Neutralization reagent.** Store at room temperature.
 
 - 24 mL PCR water
-- 1 mL 1 M Tris-HCl
+- 1 mL 1 M Tris-HCl, pH 8
 
 ### 3.4.2 Extraction
 
