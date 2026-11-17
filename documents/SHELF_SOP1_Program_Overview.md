@@ -486,22 +486,40 @@ section, renumber the sections after it and any references to them.
 Every change saved to the repository appears on the SOP website and in
 the Word download a few minutes later.
 
+#### Before you start: check your access
+
+Editing requires **Write** access to `SHELF-SOP` (Section 1.8.3). To
+check, sign in to GitHub, open any SOP file in the repository (open
+`documents/`, then the file), and hold the mouse over the pencil icon
+above the text:
+
+- **Edit this file**: you have Write access. Use the steps below.
+- **Fork this repository and edit the file**: you do not. Do not click
+  it. If you maintain an SOP, ask the PI's lab manager for Write access.
+  Anyone else can suggest the change as an issue (Section 1.8.4) or
+  propose an edit (see "Proposing an edit without Write access" below).
+
 #### Small edits, in a web browser
 
-1. On the SOP website, go to the page and click **Edit this page** (on the
+1. Sign in to GitHub.
+2. On the SOP website, go to the page and click **Edit this page** (on the
    right, under the table of contents). The file opens for editing on
-   GitHub. (Or, in the repository, open `documents/`, then the file, and
-   click the pencil icon.)
-2. Make the change. Click **Preview** to check the formatting.
-3. Click **Commit changes**. In the message, say what changed. If the
-   change resolves an issue, add `closes #` and the issue number, e.g.,
+   GitHub. Alternatively, in the repository, open `documents/`, then the
+   file, and click the pencil icon itself, not the small arrow next to
+   it. (If you click the arrow, choose **In place**.)
+3. Make the change. Click **Preview** (top left of the editing box) to
+   check the formatting, then **Edit** to go back.
+4. Click the green **Commit changes...** button (top right). A box opens.
+5. In **Commit message**, say what changed. If the change resolves an
+   issue, add `closes #` and the issue number, e.g.,
    `Fix ethidium bromide volume (closes #12)`. GitHub then closes the
    issue and links it to the change.
-4. Leave **Commit directly to the main branch** selected and click
+6. Leave **Commit directly to the `main` branch** selected and click
    **Commit changes**.
-5. After about five minutes, reload the SOP website and check the change.
-   The repository's **Actions** tab shows whether the rebuild finished. A
-   red ✗ means it failed. Tell the PI's lab manager.
+7. After about five minutes, reload the SOP website and check the change.
+   The repository's **Actions** tab shows whether the rebuild finished: a
+   green ✓ means it worked, and a red ✗ means it failed. If it failed,
+   tell the PI's lab manager.
 
 #### Larger edits
 
@@ -542,11 +560,26 @@ day the SOP text changes. After the last edit of the day:
    (ending `/v2`, `/v3`, and so on). Update the DOI in the SOP header,
    Section 1.7.1, and the references in the next release.
 
-#### Reviewing a proposed edit (pull request)
+#### Proposing an edit without Write access
 
-Team members without Write access can also click **Edit this page**.
-GitHub then saves their change as a pull request instead of applying it,
-and the maintainers get an email. To review it:
+Team members without Write access can propose exact wording as a **pull
+request**: a change that a maintainer reviews before it goes into the
+SOP. Filing an issue (Section 1.8.4) works just as well and is simpler.
+
+1. Sign in to GitHub and click **Edit this page** on the SOP website.
+2. GitHub says you need your own copy (a **fork**) of the repository to
+   propose changes. Click **Fork this repository**. This is expected. It
+   does not change the SOPs, and it is done only once.
+3. Make the change, then click the green **Commit changes...** button.
+4. In **Commit message**, say what changed (with `closes #` and the issue
+   number, if there is one), then click **Propose changes**.
+5. On the next page, click **Create pull request**. In the form that
+   opens, add any explanation and click **Create pull request** again.
+
+The maintainers get an email. GitHub emails you when they comment, merge
+(accept) the change, or close it.
+
+#### Reviewing a proposed edit (pull request)
 
 1. Open the repository's **Pull requests** tab and click the request.
 2. Click **Files changed**. Removed text is shown in red, added text in
