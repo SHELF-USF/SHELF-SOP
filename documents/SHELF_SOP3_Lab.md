@@ -187,16 +187,17 @@ then add 600 µL DNA-free water. Smaller batches work the same way (e.g.,
 1. Turn on the thermocycler and load the `Fish45` program.
 2. Bleach and UV the hood, pipettes, and rack.
 3. Fill a small cooler one-third full of ice. Thaw the DNA on the ice,
-   flicking occasionally to mix. Bury the Red Taq in the ice.
-4. Thaw the other reagents on the bench (primers, dNTPs, NH4 buffer, MgCl2,
-   BSA). Vortex and spin down all reagents except the DNA (flick and spin)
+   flicking occasionally to mix. Bury the Red Taq and BSA in the ice. (BSA
+   does not freeze at −20 °C, so it needs no thawing.)
+4. Thaw the other reagents on the bench (primers, dNTPs, NH4 buffer,
+   MgCl2). Vortex and spin down all reagents except the DNA (flick and spin)
    and the Red Taq (spin only).
 5. While the reagents thaw, label the tubes in numerical order, including a
    negative control (Figure 3.2). Write the station and date at the top of each tube and
    the egg number in the middle.
 6. If using a 96-well plate, label its side with the date, stations, and
    your initials, and record the sample layout on a plate map (Figure 3.3).
-7. Work quickly and keep the DNA and Taq on ice. Prepare a master mix for
+7. Work quickly and keep the DNA, BSA, and Taq on ice. Prepare a master mix for
    the number of templates plus one negative and one extra. For a 96-well
    plate, make enough for 100 reactions to allow for loss in the
    multichannel reservoir. Per 50 µL reaction:
