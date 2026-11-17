@@ -28,7 +28,9 @@ and injury reporting) before departure.
 - CUFES intake hose and output hose
 - Sample collection sink, with intake hose and output hose
 - Electric seawater pump box
-- Water flow meter and flow meter power cable
+- Electromagnetic water flow meter and flow meter power cable
+- Flow meter grounding cable
+- Flow meter ground terminal
 - DC power supply box for the flow meter, and its power cable
 - Spare motor
 - Spare speed reducer
