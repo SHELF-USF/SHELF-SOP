@@ -378,7 +378,7 @@ some options differently.
    - Maximum mismatches per read 1%; maximum ambiguity 16
    - Reanalyze threshold 0; speed 5
 6. Open the new sub-folder. Select all contigs and choose **File → Export →
-   Consensus sequences** (highest quality, assign quality: total). Create a
+   Consensus sequences** (highest quality (60%), assign quality: total). Create a
    sequence list and save it as FASTA.
 7. Select the unused reads and choose **File → Export → Selected
    Documents**. Save as FASTA.
