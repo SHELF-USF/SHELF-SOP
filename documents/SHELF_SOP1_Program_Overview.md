@@ -93,7 +93,7 @@ species, and mackerels.
 |---|---|---|
 | False positives/negatives | None observed | Substantial |
 | Data type | Fully quantitative | Semi-quantitative (presence/absence only) |
-| Sample fate | Preserved | Destroyed |
+| DNA | Kept separately for each egg | Pooled from all eggs in a sample |
 
 Based on these results, SHELF kept individual egg barcoding as its main
 identification method.
