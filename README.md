@@ -29,8 +29,7 @@ Section 1.8.4.
   (`.github/workflows/publish.yml`). To check locally first, run
   `quarto render` and open `_book/index.html`.
 - Before a release, set the version in `_quarto.yml` (`date`,
-  `date-format`, and `output-file`; format `YYYYMMDD.N`), then save the
-  Word file to the shared folder `09_SOP/`.
+  `date-format`, and `output-file`; format `YYYYMMDD.N`).
 - Step-by-step editing and release instructions are in SOP 1,
   Section 1.8.6.
 

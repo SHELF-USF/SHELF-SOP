@@ -102,7 +102,7 @@ rules for using the folder, are in SOP 1, Section 1.8.2.
 ├── 06_Presentations/       ← presentations
 ├── 07_Photos/              ← cruise, outreach photos
 ├── 08_Logos/               ← logos, branding
-└── 09_SOP/                 ← SOP releases (Word)
+└── 09_SOP/                 ← SOPs used before this book (legacy/), reference only
 ```
 
 ### 4.2.1 Data folder structure (01_Data)

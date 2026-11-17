@@ -1,7 +1,7 @@
 # SHELF SOP 2: Field Collection of Fish Eggs Using CUFES
 
 **Authors**: Christopher Stallings, AliciaGrace Marley \
-**protocols.io**: <https://doi.org/10.17504/protocols.io.wov1yj1wpvr2/v1>
+**protocols.io**: DOI 10.17504/protocols.io.wov1yj1wpvr2/v1 (reserved; it will work once the protocol is published)
 
 ---
 
@@ -217,6 +217,9 @@ one transect share one TransectID (SOP 4, Section 4.2.2).
 
 ### What to bring
 
+- A copy of the current SOP 2, downloaded from the SOP website (the Word
+  download) or printed, in case the ship's internet is down. Check that
+  its version number matches the website before you leave.
 - Closed-toe shoes (required on board), and waterproof boots or shoes,
   since the deck is often wet
 - Shower shoes

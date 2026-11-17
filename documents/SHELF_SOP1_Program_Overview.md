@@ -295,22 +295,31 @@ anyone working with the database.
 
 ### 1.7.1 Where the SOPs live
 
-| Location | What is there | Use it to |
-|----------|---------------|-----------|
-| SOP website: <https://shelf-usf.github.io/SHELF-SOP/> | The current version of all four SOPs, with a Word download | Read the SOPs |
-| GitHub: <https://github.com/SHELF-USF/SHELF-SOP> | The source files, the full change history, and issues | Suggest a change (Section 1.8.4) |
-| protocols.io (SHELF-USF workspace) | SOP 2 (<https://doi.org/10.17504/protocols.io.wov1yj1wpvr2/v1>) and SOP 3 (<https://doi.org/10.17504/protocols.io.q2lydz4rmlx9/v1>), each with a version history | Cite the field and lab methods |
-| Shared folder: `09_SOP/` | A Word copy of each released version; earlier SOPs in `09_SOP/legacy/` | Find a past version |
+**Read and follow the SOPs on the SOP website,
+<https://shelf-usf.github.io/SHELF-SOP/>.** It always has the current
+version of all four SOPs. For reading offline or printing, download the
+Word version (the download icon next to the book title, top left).
 
-If copies disagree, the SOP website is the current version. The version
-number on the title page, `YYYYMMDD.N`, gives the release date and the
-release number on that date (e.g., `20261105.1`).
+Two other places hold the SOPs for specific purposes. Do not work from
+them:
 
-SOPs 2 and 3 are on protocols.io as Stallings and Marley (2026) and
-Breitbart and Kerr (2026). SOP 3 replaces the lab's earlier protocol,
-Breitbart and Kerr (2025). The protocols.io versions carry
-the same text as the SOP website. When either SOP changes, its maintainer
-publishes a new protocols.io version (Section 1.8.6).
+- **GitHub** (<https://github.com/SHELF-USF/SHELF-SOP>) holds the files
+  the website is built from, the history of every change, and the issues
+  used to suggest changes (Section 1.8.4).
+- **protocols.io** (SHELF-USF workspace) holds SOPs 2 and 3 so that papers
+  can cite the field and lab methods by DOI: Stallings and Marley (2026)
+  and Breitbart and Kerr (2026). SOP 3 replaces the lab's earlier
+  protocol, Breitbart and Kerr (2025). The protocols.io versions are
+  updated less often than the website and may lag behind it
+  (Section 1.8.6). Their DOIs are reserved and will work once the
+  protocols are published.
+
+The version number on the title page, `YYYYMMDD.N`, gives the release
+date and the release number on that date (e.g., `20261117.1`). Before
+using a downloaded or printed copy, check that its version number matches
+the website. Past versions are in the GitHub history. The SOPs used before
+this book are kept in the shared folder `09_SOP/legacy/` for reference
+only.
 
 ---
 
@@ -467,9 +476,8 @@ file an issue so the fix is recorded.
 The PI maintains SOPs 1, 2, and 4. The Co-PI and the Co-PI's lab manager
 maintain SOP 3. Maintainers respond to issues and edit the SOP files in the `SHELF-SOP`
 repository (Section 1.8.6). The SOP website and Word version rebuild automatically when
-changes are pushed. After each release, the PI's lab manager saves the
-Word version to `09_SOP/`. For SOPs 2 and 3, the maintainer
-also publishes the revised text as a new version on protocols.io. Team
+changes are pushed. For SOPs 2 and 3, the maintainer also keeps the
+protocols.io version up to date (Section 1.8.6). Team
 members who are comfortable with GitHub may propose edits directly as a
 pull request. A maintainer reviews it before it is merged.
 
@@ -551,14 +559,25 @@ day the SOP text changes. After the last edit of the day:
 
    `N` is 1 for the first release of the day, 2 for the second, and so on.
 2. Commit with a message naming the version, e.g., `Release 20261120.1`.
-3. The PI's lab manager downloads the Word version from the SOP website
-   (the download icon next to the book title, top left) and saves it to
-   `09_SOP/`.
-4. If SOP 2 or SOP 3 changed, its maintainer creates a new version of the
-   protocol in the SHELF-USF workspace on protocols.io, makes the same
-   changes, and publishes it. Each protocols.io version has its own DOI
-   (ending `/v2`, `/v3`, and so on). Update the DOI in the SOP header,
-   Section 1.7.1, and the references in the next release.
+
+Several fixes can go into one release. Commit each fix separately (each
+with its own `closes #`), then push them together with the version change.
+The issues close when the push reaches GitHub.
+
+#### Updating protocols.io (SOPs 2 and 3)
+
+protocols.io is for citing the methods, not for following them, so it does
+not need to change with every release. Its maintainer updates it at least
+once a year, and before a paper cites the protocol, if the methods have
+changed. Changes to wording or formatting alone do not need a new
+protocols.io version.
+
+1. In the SHELF-USF workspace on protocols.io, create a new version of the
+   protocol, copy in the changed text from the SOP website, and publish
+   it.
+2. Each protocols.io version has its own DOI (ending `/v2`, `/v3`, and so
+   on). Update the DOI in the SOP header, Section 1.7.1, and the
+   references in the next release.
 
 #### Proposing an edit without Write access
 
@@ -690,7 +709,7 @@ Breitbart M, Kerr M (2025) DNA barcoding of fish eggs methods. protocols.io.
 <https://doi.org/10.17504/protocols.io.3byl4wmbjvo5/v1>
 
 Breitbart M, Kerr M (2026) DNA barcoding of fish eggs (SHELF SOP 3).
-protocols.io. <https://doi.org/10.17504/protocols.io.q2lydz4rmlx9/v1>
+protocols.io. DOI reserved: 10.17504/protocols.io.q2lydz4rmlx9/v1
 
 Checkley DM Jr, Ortner PB, Settle LR, Cummings SR (1997) A continuous,
 underway fish egg sampler. *Fisheries Oceanography* 6:58–73.
@@ -698,4 +717,4 @@ underway fish egg sampler. *Fisheries Oceanography* 6:58–73.
 
 Stallings C, Marley A (2026) Field collection of fish eggs using CUFES
 (SHELF SOP 2). protocols.io.
-<https://doi.org/10.17504/protocols.io.wov1yj1wpvr2/v1>
+DOI reserved: 10.17504/protocols.io.wov1yj1wpvr2/v1
