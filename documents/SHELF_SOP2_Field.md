@@ -169,7 +169,9 @@ reached.
    time of collection on the back. Together, the cruise code and the
    station and transect number make the TransectID (`WB2410_B111.1`).
    Place the label inside the vial.
-7. Write the TransectID on a cap label and attach it to the vial cap.
+7. Write the station and transect number (e.g., `B111.1`, as on the front
+   of the vial label) on a cap label and attach it to the vial cap. The
+   full TransectID does not fit on the cap label.
 8. Screw on the cap.
 9. Rinse the angled sieve, sieve cup, and funnel with flowthrough seawater.
 10. Unless the 35-minute rule applies (Section 2.5), reinstall the angled
