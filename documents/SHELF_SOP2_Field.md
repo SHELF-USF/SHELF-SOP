@@ -91,7 +91,7 @@ and injury reporting) before departure.
 8. Share Section 2.9 (what to bring, and seasickness) with anyone going to
    sea for the first time.
 
-![Figure 2.1. CUFES installed on the aft deck, with the collection sink on its stand in front.](../images/sop2_cufes_on_deck.jpg){width=55%}
+![Figure 2.1. CUFES installed on the aft deck, with the flow meter, water flow adjustment valve, water fill level, seawater intake, and outflows labeled. The collection sink is on its stand in front.](../images/sop2_cufes_labeled.jpg){width=45%}
 
 ---
 
