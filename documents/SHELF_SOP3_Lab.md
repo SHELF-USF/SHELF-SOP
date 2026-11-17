@@ -173,13 +173,14 @@ then add 600 µL DNA-free water. Smaller batches work the same way (e.g.,
 
 ### 3.5.2 Thermocycler program (`Fish45`)
 
-| Step | Temperature | Time |
-|------|-------------|------|
-| Initial denaturation | 94 °C | 2 min |
-| 45 cycles | 94 °C | 30 s |
-| | 52 °C | 40 s |
-| | 72 °C | 1 min |
-| Final extension | 72 °C | 10 min |
+| Step | Temperature | Time | Cycles |
+|------|-------------|------|--------|
+| Initial denaturation | 94 °C | 2 min | 1 |
+| Denaturation | 94 °C | 30 s | 45 |
+| Annealing | 52 °C | 40 s | 45 |
+| Extension | 72 °C | 1 min | 45 |
+| Final extension | 72 °C | 10 min | 1 |
+| Hold | 4 °C | Indefinitely | |
 
 ### 3.5.3 Setting up the reaction
 
