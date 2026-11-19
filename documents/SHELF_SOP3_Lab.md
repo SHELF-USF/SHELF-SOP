@@ -264,7 +264,8 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
    waste.**
 6. Swirl gently and pour immediately into the gel holder. Pop or move any
    bubbles with a pipette tip.
-7. Add combs, leaving room between rows for the samples to run.
+7. Place the combs in every other comb slot of the gel holder, to leave
+   enough room for the samples to migrate.
 8. Let the gel set for 20 minutes. Pull the combs straight up and remove
    the siding or tape.
 
