@@ -263,7 +263,8 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
    handle it only in the designated area, and dispose of it as EtBr
    waste.**
 6. Swirl gently and pour immediately into the gel holder. Pop or move any
-   bubbles with a pipette tip.
+   bubbles with a pipette tip. Rinse the Erlenmeyer flask in the sink and
+   let it dry.
 7. Place the combs in every other comb slot of the gel holder, to leave
    enough room for the samples to migrate.
 8. Let the gel set for 20 minutes. Pull the combs straight up and remove
