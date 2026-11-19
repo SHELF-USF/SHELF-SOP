@@ -18,9 +18,9 @@ book:
   # Version = YYYYMMDD.N: N counts versions sent for review that day,
   # restarting at .1 each day. Before sending a new version, set date to
   # today and N in date-format and output-file.
-  date: 2026-11-17
-  date-format: "YYYYMMDD[.2]"
-  output-file: "SHELF-SOP_20261117.2"
+  date: 2026-11-19
+  date-format: "YYYYMMDD[.1]"
+  output-file: "SHELF-SOP_20261119.1"
   chapters:
     - index.qmd
     - documents/SHELF_SOP1_Program_Overview.md
