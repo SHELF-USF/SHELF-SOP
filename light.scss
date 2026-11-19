@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+// Light theme colors (used with cosmo and style.scss).
+
+$shelf-navy: #243C8D;
+$shelf-blue: #37AAE1;
+
+$body-color: #333333;
+$link-color: #1F6FAE;          // darker than the logo blue so links stay readable
+$headings-color: $shelf-navy;
+
+$sidebar-bg: #FAFAFA;
+$sidebar-fg: #333333;
+$sidebar-hl: $shelf-navy;
+
+$shelf-title-color: $shelf-navy;
+$shelf-subtitle-color: #555555;
+$shelf-rule-color: #E5E5E5;
+$shelf-caption-color: #777777;

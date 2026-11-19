@@ -1,21 +1,13 @@
 /*-- scss:defaults --*/
-// Look modeled on the Fish Ecology Lab handbook (bookdown gitbook),
-// with colors taken from the SHELF logo.
-
-$shelf-navy: #243C8D;
-$shelf-blue: #37AAE1;
+// Shared by the light and dark themes. Look modeled on the Fish Ecology Lab
+// handbook (bookdown gitbook), with colors from the SHELF logo.
+// Colors are set in light.scss and dark.scss, which are listed after this
+// file in _quarto.yml and so take precedence.
 
 $font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-size-root: 16px;
 $line-height-base: 1.7;
-$body-color: #333333;
-$link-color: #1F6FAE;          // darker than the logo blue so links stay readable
-$headings-color: $shelf-navy;
 $headings-font-weight: 700;
-
-$sidebar-bg: #FAFAFA;
-$sidebar-fg: #333333;
-$sidebar-hl: $shelf-navy;
 
 /*-- scss:rules --*/
 
@@ -34,21 +26,21 @@ main table p {
 // Large book title on the front page
 #title-block-header .title {
   font-size: 2.6em;
-  color: $shelf-navy;
+  color: $shelf-title-color;
 }
 #title-block-header .subtitle {
-  color: #555555;
+  color: $shelf-subtitle-color;
 }
 
 // Light rule under section headings
 main h2 {
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid $shelf-rule-color;
   padding-bottom: 0.25em;
 }
 
-// Sidebar: gitbook-style gray panel with a thin border
+// Sidebar: gitbook-style panel with a thin border
 #quarto-sidebar {
-  border-right: 1px solid #E5E5E5;
+  border-right: 1px solid $shelf-rule-color;
   font-size: 0.9rem;
 }
 .sidebar-logo {
@@ -68,7 +60,7 @@ main h2 {
 // Figure captions in gray, as in the handbook
 figcaption,
 .figure-caption {
-  color: #777777;
+  color: $shelf-caption-color;
 }
 
 // Tables a bit tighter than the body text

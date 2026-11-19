@@ -38,7 +38,12 @@ book:
 
 format:
   html:
-    theme: [cosmo, style.scss]
+    # Light and dark themes; the site follows each reader's system setting,
+    # and the toggle in the sidebar switches between them
+    theme:
+      light: [cosmo, style.scss, light.scss]
+      dark: [darkly, style.scss, dark.scss]
+    respect-user-color-scheme: true
     toc: true
     toc-depth: 3
   docx:
