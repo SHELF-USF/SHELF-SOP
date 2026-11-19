@@ -19,8 +19,8 @@ book:
   # restarting at .1 each day. Before sending a new version, set date to
   # today and N in date-format and output-file.
   date: 2026-11-19
-  date-format: "YYYYMMDD[.2]"
-  output-file: "SHELF-SOP_20261119.2"
+  date-format: "YYYYMMDD[.3]"
+  output-file: "SHELF-SOP_20261119.3"
   chapters:
     - index.qmd
     - documents/SHELF_SOP1_Program_Overview.md
