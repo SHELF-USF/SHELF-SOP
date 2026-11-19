@@ -164,9 +164,10 @@ SHELF uses the fish COI primer cocktail of Ivanova et al. (2007):
 | FishF2_t1 | TGTAAAACGACGGCCAGTCGACTAATCATAAAGATATCGGCAC |
 | FishR2_t1 | CAGGAAACAGCTATGACACTTCAGGGTGACCGAAGAATCAGAA |
 
-**Reconstituting new primers.** Add DNA-free water to the dry primer (x µL,
-equal to the number of ng of DNA on the primer tube). Vortex until
-dissolved and spin down.
+**Reconstituting new primers.** Add DNA-free (PCR) water to the dry
+primer: 10 µL for every nmol of DNA on the primer tube, which gives a
+100 µM stock. For example, if the tube says 24.1 nmol, add 241 µL. Vortex
+until dissolved and spin down.
 
 **Primer cocktail (10 µM).** Add 100 µL of each primer to a 1.5 mL tube,
 then add 600 µL DNA-free water. Smaller batches work the same way (e.g.,
