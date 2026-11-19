@@ -294,7 +294,11 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
 3. Open the imager program, adjust the zoom if needed, close the
    illuminator door, acquire the image, adjust the color, and print it.
 4. Remove the gel with a gloved hand. Turn off the imager and leave the
-   door open. Save the image to your folder with the date.
+   door open. Save the image to your folder on the lab computer as
+   `gel_[YYYYMMDD]_[initials]_[ID].jpg`, where ID is the plate number or
+   another identifier, such as a strip number (e.g.,
+   `gel_20261117_JS_Plate1.jpg`, `gel_20261117_JS_Strip2.jpg`). Write the
+   date year first (SOP 4, Section 4.2.2).
 5. Discard the gel in biohazard waste.
 6. Label the printed image and put it in your notebook: lane numbers,
    ladder, and negative control. Mark the positives (bands at about
