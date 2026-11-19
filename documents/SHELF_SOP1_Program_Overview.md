@@ -311,7 +311,7 @@ them:
   the website is built from, the history of every change, and the issues
   used to suggest changes (Section 1.8.4).
 - **protocols.io** (SHELF-USF workspace) holds SOPs 2 and 3 so that papers
-  can cite the field and lab methods by DOI: Stallings and Marley (2026)
+  can cite the field and lab methods by DOI: Stallings et al. (2026)
   and Breitbart and Kerr (2026). SOP 3 replaces the lab's earlier
   protocol, Breitbart and Kerr (2025). The protocols.io versions are
   updated less often than the website and may lag behind it
@@ -719,6 +719,6 @@ Checkley DM Jr, Ortner PB, Settle LR, Cummings SR (1997) A continuous,
 underway fish egg sampler. *Fisheries Oceanography* 6:58–73.
 <https://doi.org/10.1046/j.1365-2419.1997.00030.x>
 
-Stallings C, Marley A (2026) Field collection of fish eggs using CUFES
+Stallings C, Marley A, Sklar J (2026) Field collection of fish eggs using CUFES
 (SHELF SOP 2). protocols.io.
 DOI reserved: 10.17504/protocols.io.wov1yj1wpvr2/v1
