@@ -102,7 +102,7 @@ Egg picking produces the egg count data (SOP 4, Section 4.4.3).
 
 DNA is extracted with the HotSHOT method (Truett et al. 2000), as applied
 to zooplankton eggs by Montero-Pau et al. (2008) and to fish eggs by
-Burrows et al. (2018).
+Burrows et al. (2019).
 
 ### 3.4.1 Reagents
 
@@ -458,9 +458,9 @@ in SOP 4, Section 4.6.2.
 
 ## References
 
-Burrows M, Browning JS, Breitbart M, Murawski SA, Peebles EB (2018) DNA
+Burrows M, Browning JS, Breitbart M, Murawski SA, Peebles EB (2019) DNA
 barcoding reveals clear delineation between spawning sites for neritic
-versus oceanic fishes in the Gulf of Mexico. *Fisheries Oceanography*.
+versus oceanic fishes in the Gulf of Mexico. *Fisheries Oceanography* 28:228–239.
 <https://doi.org/10.1111/fog.12404>
 
 Ivanova NV, Zemlak TS, Hanner RH, Hebert PDN (2007) Universal primer
