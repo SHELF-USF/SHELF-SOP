@@ -36,7 +36,7 @@ data produced here are submitted as described in SOP 4.
 | BSA, 20 mg/mL | Fisher Scientific #FERB14 |
 | dNTPs | Genesee Scientific #42-403 |
 | Red Taq and buffers (NH4, MgCl2) | Genesee Scientific #42-401R |
-| GeneRuler DNA ladder | Fisher Scientific #SM0334 |
+| GeneRuler DNA Ladder Mix, ready-to-use | Thermo Scientific #SM0334 |
 | Screw-cap tubes and caps, 1.5 mL | Genesee #21-262, #21-266A |
 | Square gridded petri dishes | Andwin Scientific #70691CS |
 | PCR tubes (strips) | Genesee #22-705A |
@@ -276,14 +276,14 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
    red/positive on the right) before plugging into the power supply
    (Figure 3.5).
 3. Get the thawed PCR products and the DNA ladder (refrigerator, pink cap).
-4. Load the ladder (Figure 3.6) at the ends of each row and the samples in
-   the middle.
+4. Load the ladder at the ends of each row and the samples in the middle.
+   The ladder's band sizes are shown on the
+   [Thermo Fisher product page for #SM0334](https://www.thermofisher.com/order/catalog/product/SM0334).
+   SHELF COI products run at about 600–700 bp.
 5. Run at 120 V for 1 hour. Check that bubbles are rising on both sides.
 6. Turn off the power supply.
 
 ![Figure 3.5. Gel electrophoresis setup.](../images/sop3_gel_rig.jpg){width=60%}
-
-![Figure 3.6. GeneRuler 100 bp DNA ladder (Thermo Fisher Scientific). SHELF COI products run at about 600–700 bp.](../images/sop3_dna_ladder.png){width=35%}
 
 ### 3.6.3 Imaging and scoring
 
