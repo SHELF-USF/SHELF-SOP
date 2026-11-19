@@ -17,14 +17,3 @@ $shelf-title-color: $shelf-blue-light;
 $shelf-subtitle-color: #B5B5B5;
 $shelf-rule-color: #3A3E46;
 $shelf-caption-color: #A3A3A3;
-
-/*-- scss:rules --*/
-
-// The logo has a transparent background and navy lettering, so show it on
-// a white panel in dark mode.
-.sidebar-logo,
-img[src$="shelf_logo.png"] {
-  background: #FFFFFF;
-  border-radius: 6px;
-  padding: 6px 10px;
-}
