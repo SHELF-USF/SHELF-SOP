@@ -276,7 +276,8 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
 2. Put the lid on the rig and check the leads (black/negative on the left,
    red/positive on the right) before plugging into the power supply
    (Figure 3.5).
-3. Get the thawed PCR products and the DNA ladder (refrigerator, pink cap).
+3. Get the thawed PCR products and the DNA ladder (refrigerator). Spin
+   down the PCR plate or strips briefly once thawed.
 4. Load the ladder at the ends of each row and the samples in the middle.
    The ladder's band sizes are shown on the
    [Thermo Fisher product page for #SM0334](https://www.thermofisher.com/order/catalog/product/SM0334).
