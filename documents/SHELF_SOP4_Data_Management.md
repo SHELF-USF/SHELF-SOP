@@ -151,6 +151,21 @@ classification.
 
 ### 4.2.2 Naming conventions
 
+**All files.** These rules apply to every SHELF file, including lab files
+such as gel images, not only to files submitted to the database:
+
+- Keep names short and descriptive: what the file is, then when, then who
+  or which plate or cruise (e.g., `gel_20261117_JS_Plate1.jpg`).
+- Separate the parts with underscores. Do not use spaces or special
+  characters (`/ \ : * ? " < > | # %`).
+- **Write dates year first (ISO 8601).** Use `YYYYMMDD` in file names,
+  `YYYY-MM-DD` in spreadsheets and datasheets, and `YYYY-MM` in folder
+  names. Never write month-day-year (`11-17-2026`) or day-month-year
+  (`17-11-2026`): they are easy to misread, and they do not sort in date
+  order. Year-first names sort correctly in any file list (Figure 4.1).
+
+![Figure 4.1. xkcd 1179, "ISO 8601," by Randall Munroe (<https://xkcd.com/1179/>), used under CC BY-NC 2.5.](../images/sop4_xkcd_iso8601.png){width=50%}
+
 **Cruise folders**: `YYYY-MM (CruiseCode)`, e.g., `2024-11 (HO2507)`
 
 **Cruise codes**: `[VesselCode][FY][NN]`. FIO assigns these, and SHELF

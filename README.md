@@ -47,6 +47,5 @@ Centers of Excellence Program (FLRACEP).
 The SOP text and SHELF figures are licensed under the
 [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/):
 you may share and adapt them with credit to SHELF. Figures credited to
-another source (for example, the DNA ladder in SOP 3, Figure 3.6, from
-Thermo Fisher Scientific) are not covered and remain under their owners'
-terms. Full license text: [LICENSE](LICENSE).
+another source (for example, the xkcd cartoon in SOP 4, licensed
+CC BY-NC 2.5) are not covered and remain under their owners' terms. Full license text: [LICENSE](LICENSE).
