@@ -163,6 +163,19 @@ such as gel images, not only to files submitted to the database:
   names. Never write month-day-year (`11-17-2026`) or day-month-year
   (`17-11-2026`): they are easy to misread, and they do not sort in date
   order. Year-first names sort correctly in any file list (Figure 4.1).
+  - **File names: `YYYYMMDD`.** ISO 8601 allows a compact form without
+    dashes (`20261117`) as well as the dashed form (`2026-11-17`). The
+    cartoon jokingly lists the compact form as discouraged, but it is
+    part of the standard. SHELF uses it in file names because the parts
+    of a name are already separated by underscores, and the date then
+    reads as one part.
+  - **Spreadsheets: `YYYY-MM-DD`, with dashes.** Excel, R, and Access
+    read `2026-11-17` as a date, so you can sort, filter, and calculate
+    with it. They read `20261117` as the number 20,261,117, not as a
+    date, and Access will not import it into a date field. Format date
+    columns in Excel as `yyyy-mm-dd` (Format Cells > Custom) so that
+    Excel does not change them to its local display, such as
+    `11/17/2026`.
 
 ![Figure 4.1. xkcd 1179, "ISO 8601," by Randall Munroe (<https://xkcd.com/1179/>), used under CC BY-NC 2.5.](../images/sop4_xkcd_iso8601.png){width=50%}
 
