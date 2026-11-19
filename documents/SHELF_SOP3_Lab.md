@@ -255,7 +255,8 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
    not fill the flask more than halfway, or it will boil over.
 3. Microwave for 1 minute. Wearing heat gloves, swirl gently. Microwave
    again for about 45 seconds, or until boiling, and swirl again.
-4. Set up the gel siding and combs (tape the sides if needed).
+4. Set up the gel siding and combs (20 cm × 40-well × 1 mm combs; tape
+   the sides if needed).
 5. When the flask is cool enough to hold the bottom for 10 seconds, add
    ethidium bromide: 7.5 µL for a 150 mL gel, or 17.5 µL for 350 mL
    (5 µL per 100 mL; Figure 3.4). **Ethidium bromide is a mutagen. Wear nitrile gloves,
