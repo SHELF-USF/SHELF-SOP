@@ -283,7 +283,7 @@ Change the TAE buffer in the gel box if it has particles or looks cloudy.
 5. Run at 120 V for 1 hour. Check that bubbles are rising on both sides.
 6. Turn off the power supply.
 
-![Figure 3.5. Gel electrophoresis setup.](../images/sop3_gel_rig.jpg){width=60%}
+![Figure 3.5. Gel electrophoresis setup: the power supply and the gel rig, with the negative electrode (black lead) on the left and the positive electrode (red lead) on the right.](../images/sop3_gel_rig.jpg){width=60%}
 
 ### 3.6.3 Imaging and scoring
 
